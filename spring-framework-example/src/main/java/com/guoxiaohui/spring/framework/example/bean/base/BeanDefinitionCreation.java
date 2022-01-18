@@ -6,11 +6,12 @@ import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.GenericBeanDefinition;
-import org.springframework.context.annotation.Bean;
 
 import java.util.Map;
 
 /**
+ * 构建 BeanDefinition 示例
+ *
  * @author guoxiaohui
  * @see org.springframework.beans.factory.config.BeanDefinition
  * @see org.springframework.beans.factory.support.BeanNameGenerator Bean名称生成器
@@ -32,7 +33,7 @@ public class BeanDefinitionCreation {
     }
 
     /**
-     * @return 通过 {@link BeanDefinitionBuilder} 构建BeanDefinition
+     * @return 通过 {@link AbstractBeanDefinition} 及其子类
      */
     public static BeanDefinition buildBeanDefinitionByAbstractBeanDefinition() {
         AbstractBeanDefinition abstractBeanDefinition = new GenericBeanDefinition();

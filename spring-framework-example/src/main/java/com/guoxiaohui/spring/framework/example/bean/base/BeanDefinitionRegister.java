@@ -8,6 +8,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.AnnotationConfigRegistry;
 
 /**
+ * 注册 BeanDefinition 示例
+ *
  * @author guoxiaohui
  * <注解注册配置元信息>
  * @see org.springframework.context.annotation.Bean
