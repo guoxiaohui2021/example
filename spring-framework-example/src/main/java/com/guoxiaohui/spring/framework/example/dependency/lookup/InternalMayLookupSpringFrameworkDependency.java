@@ -1,5 +1,6 @@
 package com.guoxiaohui.spring.framework.example.dependency.lookup;
 
+import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 
 /**
@@ -7,7 +8,8 @@ import org.springframework.beans.factory.support.BeanDefinitionRegistry;
  * @see org.springframework.context.annotation.AnnotationConfigUtils#registerAnnotationConfigProcessors(BeanDefinitionRegistry)
  * <p>
  * Spring Framework 内置的可查找的依赖
- * AbstractApplicationContext#prepareBeanFactory(org.springframework.beans.factory.config.ConfigurableListableBeanFactory)  beanFactory.registerSingleton()
+ * @see org.springframework.context.support.AbstractApplicationContext#prepareBeanFactory(ConfigurableListableBeanFactory)
+ * @see org.springframework.beans.factory.config.SingletonBeanRegistry#registerSingleton(String, Object)
  * {@link org.springframework.core.env.Environment}
  * {@link java.util.Properties} Bean名称:systemProperties    Java系统属性
  * {@link java.util.Map}        Bean名称:systemEnvironment    OS环境变量
