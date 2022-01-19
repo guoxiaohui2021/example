@@ -6,7 +6,7 @@ import org.springframework.beans.factory.support.GenericBeanDefinition;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * Bean 初始化 示例
+ * Bean 初始化方法 示例
  * <p>
  * 方法一：{@link javax.annotation.PostConstruct}
  * 方法二：{@link org.springframework.beans.factory.InitializingBean}
