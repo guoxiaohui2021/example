@@ -1,4 +1,4 @@
-package com.guoxiaohui.spring.framework.example.servlet;
+package com.guoxiaohui.spring.framework.example.mvc;
 
 /**
  * 来自org.springframework.web.multipart软件包的MultipartResolver是一种解析包括文件上传在内的多部分请求的策略。

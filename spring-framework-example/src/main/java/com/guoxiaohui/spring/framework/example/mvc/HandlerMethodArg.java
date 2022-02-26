@@ -1,4 +1,4 @@
-package com.guoxiaohui.spring.framework.example.servlet;
+package com.guoxiaohui.spring.framework.example.mvc;
 
 /**
  * {@link org.springframework.web.context.request.WebRequest,org.springframework.web.context.request.NativeWebRequest}  通用，不依赖Servlet API

@@ -1,4 +1,4 @@
-package com.guoxiaohui.spring.framework.example.servlet;
+package com.guoxiaohui.spring.framework.example.mvc;
 
 /**
  * {@link org.springframework.web.bind.annotation.InitBinder}可以注册控制器特定的java.beans.PropertyEditor或Spring Converter和Formatter组件

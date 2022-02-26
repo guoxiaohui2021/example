@@ -1,4 +1,4 @@
-package com.guoxiaohui.spring.framework.example.servlet;
+package com.guoxiaohui.spring.framework.example.mvc;
 
 /**
  * {@link org.springframework.web.bind.annotation.ResponseBody}

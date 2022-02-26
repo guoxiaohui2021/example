@@ -1,4 +1,4 @@
-package com.guoxiaohui.spring.framework.example.servlet;
+package com.guoxiaohui.spring.framework.example.mvc;
 
 import org.springframework.format.Formatter;
 import org.springframework.format.support.FormattingConversionService;
